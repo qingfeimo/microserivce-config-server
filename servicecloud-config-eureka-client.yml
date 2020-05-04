@@ -18,7 +18,7 @@ eureka:
     register-with-eureka: false #不将本身注入注册中心
     fetch-registry: false #表示自身端就是一个注册中心.就是进行维护服务实例，不需要进行检索服务
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/# 开启eureka集群配置 7001中有7002和7003
+      defaultZone: http://eureka7001.com:7001/eureka/ #开启eureka集群配置 7001中有7002和7003
  
 ---
 
@@ -37,5 +37,5 @@ eureka:
     register-with-eureka: false #不将本身注入注册中心
     fetch-registry: false #表示自身端就是一个注册中心.就是进行维护服务实例，不需要进行检索服务
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/# 开启eureka集群配置 7001中有7002和7003
+      defaultZone: http://eureka7001.com:7001/eureka/ #开启eureka集群配置 7001中有7002和7003
  
